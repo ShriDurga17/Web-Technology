@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEC</title>
+    <style>
+        .caption{
+            width:max-content;
+
+        }
+        .column {
+  float: left;
+  width: 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+ul {  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0px;  
+  overflow: hidden;  
+  background-color:blue;  
+}  
+  
+li {  
+  float: left;  
+}  
+  
+li a {  
+  display:block;  
+  color: black;  
+ font-size:20px;  
+  text-align: center;  
+  padding: 10px 20px;  
+  text-decoration: none;  
+} 
+h1{
+    text-align:50px;
+
+} 
+    </style>
+</head>
+<body>
+    <img src="https://www.kongu.ac.in/images/header2021.png" alt="header" class="img-fluid">
+    <ul class="nav-list">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="ex1.html">Departments</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="kongu.html">Facilities</a></li>
+
+    </ul>
+<div class="caption">
+    <h1>Facilities</h1>
+    
+</div>
+<div class="row">
+    <div class="column">
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/accommodation.jpg"><br>
+        <p>Accomodation</p>
+        <br><br>
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/bank.jpg"><br>
+        <p>KVB Bank</p>
+    </div>
+    <div class="column">
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/dispensary.JPG"><br>
+        <p>Dispensary</p><br>
+        <br>
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/postoffice.jpg"><br>
+        <p>Post Office</p>
+    </div>
+    <div class="column">
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/foodcourt.JPG"><br>
+        <p>Food Court</p>
+        <br><br>
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/amenity.jpg"><br>
+        <p>Amenity Centre</p>
+    </div>
+    <div class="column">
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/dpe.JPG"><br>
+        <p>Physical Education</p><br><br>
+        <img class="img" src="https://www.kongu.ac.in/facilities/images/bus.JPG"><br>
+        <p>Transport Facility</p>
+    </div>
+  </div>
+</body>
+</html>
